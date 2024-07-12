@@ -43,7 +43,7 @@ const LoginButton = () => {
     return () => {
       authListener.subscription.unsubscribe();
     };
-  }, [router]);
+  }, []);
 
   if (user) {
     return (
