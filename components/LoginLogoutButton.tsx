@@ -53,7 +53,7 @@ const LoginButton = () => {
           setUser(null);
         }}
       >
-        Log out
+        Signout
       </Button>
     );
   }

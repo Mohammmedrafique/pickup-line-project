@@ -191,7 +191,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="flex justify-around bg-gradient-to-br from-pink-100 to-blue- p-2">
+      <div className="flex lg:justify-around bg-gradient-to-br from-pink-100 to-blue- p-2">
         <UserGreetText />
         <LoginButton />
       </div>
