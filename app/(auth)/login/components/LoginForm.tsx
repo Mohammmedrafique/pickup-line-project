@@ -42,15 +42,17 @@ export function LoginForm() {
     <Card className="text-center h-screen flex items-center flex-col justify-center p-8 rounded-lg shadow-lg bg-white">
       <Heart className="text-red-500 mb-4" size={48} />
       <CardHeader>
-        <CardTitle className="text-2xl font-semibold mb-2">Pickup Line Generator</CardTitle>
-        <CardDescription className="text-gray-600">
+        <CardTitle className="text-3xl font-semibold mb-2 text-[#212121]">
+          Pickup Line Generator
+        </CardTitle>
+        <CardDescription className="text-gray-300 text-2xl">
           Generate a pickup line for your crush now!
         </CardDescription>
         <div className="mt-4">
           <SignInWithGoogleButton />
         </div>
       </CardHeader>
-      <CardFooter className="text-sm text-gray-500 mt-4">
+      <CardFooter className="text-sm flex justify-center text-gray-500 mt-4">
         By signing up, you agree to the Terms of Use and Privacy Notice.
       </CardFooter>
     </Card>
